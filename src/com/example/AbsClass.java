@@ -8,11 +8,11 @@ public abstract class AbsClass
 		try 
 		{
 			System.out.println("com.example 4 - try of AbsClass - execute  the second function for the object of InheritanceClass");
-			second();
+			first();
 		}
 		catch (Exception e) 
 		{
-			System.out.println("com.example 6 catch of AbsClass - get the exception - and rethrow it");
+			System.out.println("com.example 8 catch of AbsClass - get the exception - and rethrow it");
 			throw new Exception(e);
 		}
 	}

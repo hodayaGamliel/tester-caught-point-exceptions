@@ -20,7 +20,7 @@ public class CaughtPointComplex
 		}
 		catch (Exception ex)
 		{	
-			System.out.println("com.example 8 - chatch of caoghtPoint - the print stack of the exception");
+			System.out.println("com.example 10 - catch of caughtPoint - the print stack of the exception");
 			ex.printStackTrace();
 		}
 	}

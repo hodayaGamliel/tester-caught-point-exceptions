@@ -1,7 +1,9 @@
 package org.apache;
 
 import org.apache.InheritanceClass;
+
 import com.example.AbsClass;
+
 
 public class CaughtPoint2Complex 
 {
@@ -20,7 +22,7 @@ public class CaughtPoint2Complex
 		} 
 		catch (Exception e)
 		{
-		System.out.println("org.apache 7 - chatch of caoghtPoint2 - get the exception - and rethrow it");
+		System.out.println("org.apache 9 - catch of caughtPoint2 - get the exception - and rethrow it");
 		throw new Exception(e);
 		}
 	}
